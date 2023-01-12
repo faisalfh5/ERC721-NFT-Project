@@ -9,15 +9,18 @@ npm init -y
 npm install --save-dev hardhat @nomicfoundation/hardhat-toolbox
 
 npx install hardhat    
+```
 
-or  
+or
+```
 
 nvm install hardhat //before using this you have to do       “nvm use 18  then nvm install 18”
-
+```
 
 Try running some of the following tasks:
 
-```shell
+shell
+```
 npx hardhat help
 npx hardhat test
 REPORT_GAS=true npx hardhat test
